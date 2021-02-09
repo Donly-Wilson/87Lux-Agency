@@ -1,0 +1,108 @@
+/*Jumbo*/
+.jumbo {
+  height: 100%;
+  overflow: hidden;
+  &__content {
+    display: flex;
+    height: 100vh;
+    &__info {
+      display: flex;
+      justify-content: center;
+      flex-basis: 49%;
+      flex-direction: column;
+      > p {
+        font-size: 1.2rem;
+      }
+      > [type="email"] {
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+        margin-bottom: 30px;
+        outline: none;
+        padding: 10px 15px;
+        width: 65%;
+      }
+    }
+  }
+  &__shapes {
+    flex-basis: 51%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+    & > * {
+      grid-column: 1 / 1;
+      grid-row: 1 / 1;
+    }
+    &__rectangle--orange {
+      background: orange;
+      height: 298px;
+      width: 94%;
+      border-radius: 10px;
+      position: absolute;
+      top: 225px;
+      left: 0px;
+      box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.25);
+      background: url(https://3ozxuk3equ8uk744atar6415-wpengine.netdna-ssl.com/wp-content/uploads/2017/08/collaboration.jpg)
+        0 0 no-repeat;
+      overflow: hidden;
+      > .overlay {
+        background: linear-gradient(
+          90deg,
+          rgba(255, 145, 44, 0.87) 0%,
+          rgba(255, 72, 66, 0.25) 100%
+        );
+        overflow: hidden;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+      }
+      .play__btn {
+        background: #fff;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+      }
+    }
+    &__triangle--purple {
+      box-shadow: 0px 12px 42px rgba(0, 0, 0, 0.25);
+      height: 586.85px;
+      width: 115%;
+      background: linear-gradient(231.07deg, #7d52fc 30.24%, #4acaf9 84.45%);
+      clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+      transform: rotate(14.45deg);
+      position: absolute;
+      left: -18px;
+      top: 35px;
+    }
+    &__circle--green {
+      background: linear-gradient(52.27deg, #2e585e 14.81%, #f9e84a 86.16%);
+      box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.25);
+      height: 240px;
+      width: 41%;
+      border-radius: 50%;
+      position: absolute;
+      left: 31px;
+      top: 137px;
+    }
+    &__circle--blue {
+      background: linear-gradient(52.27deg, #2e585e 14.81%, #00f0ff 86.16%);
+      box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+      height: 257px;
+      width: 41%;
+      border-radius: 50%;
+      position: absolute;
+      left: 355px;
+      top: 364px;
+    }
+  }
+}

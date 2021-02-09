@@ -1,0 +1,45 @@
+/*Header Navbar*/
+.navbar {
+  box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: $body-color;
+  padding: 0;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  &__logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    &__name {
+      color: $black;
+      &:hover {
+        text-decoration: none;
+        color: $black;
+      }
+    }
+  }
+  &__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    &__links {
+      display: flex;
+      margin: 0;
+      &__option {
+        padding: 0 10px;
+        > a {
+          font-size: 1rem;
+          color: $link-black;
+        }
+      }
+    }
+  }
+}

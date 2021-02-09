@@ -1,0 +1,70 @@
+/*Project*/
+.project {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  height: 100vh;
+  &__view {
+    width: 100%;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+
+    &__list {
+      background: linear-gradient(180deg, #25293e 0%, #38394f 100%);
+      border-radius: 10px 0 0 10px;
+      display: flex;
+      margin: 0;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 25%;
+      width: 91%;
+      &__title {
+        color: white;
+        writing-mode: vertical-rl;
+        text-align: center;
+        padding: 15px 40px;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        font-weight: 500;
+      }
+      > .projects {
+        height: 180%;
+        min-width: 40%;
+        background: #7c828d;
+        position: relative;
+        transform: translateY(-22.5%);
+        box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+        border-radius: 10px;
+        margin-right: 15px;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        > a {
+          height: 100%;
+          width: 100%;
+          > img {
+            flex: 1;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+            object-position: center center;
+          }
+        }
+      }
+    }
+  }
+  &__btns {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+}

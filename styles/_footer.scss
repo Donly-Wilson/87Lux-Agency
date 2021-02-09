@@ -1,0 +1,115 @@
+/*Footer*/
+.footer {
+  &__top {
+    background: inherit;
+    &__container {
+      margin-bottom: -147px;
+      margin-top: 50px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+  &__bottom {
+    background: $footer-color;
+    padding: 200px 0 80px 0;
+    &__container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 50px;
+    }
+    p {
+      color: #fff;
+      margin-bottom: 30px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.solution {
+  display: flex;
+  justify-content: space-between;
+  &__list {
+    .query {
+      counter-increment: query-counter;
+      font-weight: 500;
+      transition: 0.3s ease-in-out;
+      margin-top: 10px;
+      a {
+        color: $light-gray;
+        text-transform: capitalize;
+        text-decoration: none;
+        &:hover {
+          color: $black;
+        }
+      }
+      &::before {
+        color: $light-gray;
+        content: "0" counter(query-counter);
+        font-size: 1rem;
+        margin-right: 0.5rem;
+        line-height: 1;
+      }
+      &:hover {
+        &::before {
+          color: $bright-green;
+        }
+      }
+    }
+    .active a {
+      color: $black;
+    }
+    .active::before {
+      color: $bright-green;
+    }
+  }
+  &__answer {
+    height: 400px;
+    width: 80%;
+    background: #e5e5e5;
+    box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    &__header {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      > p {
+        border-top: 4px solid $bright-green;
+        background: #fff;
+        color: $black;
+        display: grid;
+        place-items: center;
+        height: 100%;
+        text-transform: capitalize;
+      }
+    }
+    &__content {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background: #fff;
+      height: 100%;
+      &__text {
+        padding: 12px;
+        > p {
+          color: $footer-color;
+          font-weight: 400;
+        }
+      }
+      &__theme {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        > img {
+          flex: 1;
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+          object-position: center center;
+        }
+      }
+    }
+  }
+}

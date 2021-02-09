@@ -1,0 +1,241 @@
+/**************************** Tablet Max ***/
+
+@media all and (max-width: 1024px) {
+  // Jumbo
+  .jumbo__content {
+    > p {
+      font-size: 1.1rem;
+    }
+  }
+
+  .jumbo__shapes {
+    top: -56px;
+    left: 3%;
+    &__rectangle--orange {
+      height: 258px;
+    }
+    &__triangle--purple {
+      height: 546.85px;
+    }
+    &__circle--green {
+      height: 200px;
+    }
+    &__circle--blue {
+      height: 217px;
+    }
+  }
+  // Platform
+  .platform__list {
+    flex-wrap: wrap;
+  }
+  //Project
+  .project__btns {
+    margin-bottom: 45px;
+  }
+  // Team
+  .team__member--blue {
+    left: 0%;
+  }
+
+  .team__member--purple {
+    left: 83%;
+  }
+  //Footer
+  .footer__top .container {
+    margin-top: 100px;
+  }
+}
+
+/**************************** Mobile Max ***/
+
+@media all and (max-width: 600px) {
+  //Jumbo
+  .jumbo__content {
+    flex-direction: column;
+    height: auto;
+    &__info {
+      height: 100vh;
+      flex-basis: auto;
+      > [type="email"] {
+        width: 77%;
+      }
+    }
+  }
+
+  .jumbo__shapes {
+    top: -215px;
+    left: 8%;
+    flex-basis: auto;
+    height: 80vh;
+    width: 87%;
+  }
+
+  //Project
+  .project__view__list {
+    width: 98%;
+    > .projects {
+      min-width: 60%;
+    }
+    &__title {
+      padding: 15px 14px;
+    }
+  }
+  // Team
+  .team__member--blue {
+    height: 165px;
+    width: 165px;
+    top: 200px;
+    left: -2%;
+  }
+  .team__member--purple {
+    left: 78%;
+    height: 112px;
+    width: 112px;
+    // top: -139px;
+  }
+
+  //Footer
+  .solution {
+    flex-direction: column;
+    &__list {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    &__answer {
+      align-self: center;
+      &__content {
+        grid-template-columns: repeat(2, 1fr);
+        &__text {
+          grid-column-start: 1;
+          grid-column-end: 4;
+        }
+      }
+    }
+  }
+}
+/**************************** Mobile Mid ***/
+
+@media all and (max-width: 450px) {
+  //Header
+  .navbar__menu__links__option {
+    padding: 0 6px;
+  }
+
+  //Jumbo
+  .jumbo__shapes {
+    height: 50vh;
+    width: 100%;
+    left: 1%;
+  }
+
+  .jumbo__shapes__circle--green {
+    height: 150px;
+    // left: 31px;
+    // top: 137px;
+  }
+
+  .jumbo__shapes__circle--blue {
+    height: 150px;
+    left: 190px;
+    top: 313px;
+  }
+
+  .jumbo__shapes__triangle--purple {
+    height: 426.85px;
+    // left: -18px;
+    // top: 35px;
+  }
+  .jumbo__shapes__rectangle--orange {
+    height: 208px;
+    // top: 200px;
+    //   left: -22px;
+    .play__btn {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  //Project
+  .project__view__list {
+    height: 21%;
+  }
+
+  .project__view__list > .projects {
+    min-width: 85%;
+  }
+
+  .project__view__list__title {
+    padding: 0px 14px;
+  }
+
+  //Team
+  .team__member--blue {
+    height: 145px;
+    width: 145px;
+    top: 360px;
+    left: -2%;
+  }
+  .team__member--yellow {
+    top: 59vh;
+  }
+  .team__member--purple {
+    left: 66%;
+  }
+  .team__member--orange {
+    height: 50px;
+    width: 50px;
+  }
+
+  .team__member--green {
+    height: 115px;
+    width: 115px;
+    left: 32%;
+  }
+
+  .team__member--pink {
+    height: 60px;
+    width: 60px;
+    top: -612px;
+    left: 7%;
+  }
+
+  //Footer
+  .solution__answer__header > p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .solution__answer__content {
+    grid-template-columns: 1fr;
+  }
+}
+/**************************** Mobile Min ***/
+
+@media all and (max-width: 326px) {
+  //Jumbo
+  .jumbo__content__info > p {
+    font-size: 1rem;
+  }
+  .jumbo__shapes__circle--green {
+    height: 130px;
+  }
+  .jumbo__shapes__circle--blue {
+    height: 130px;
+  }
+
+  .jumbo__shapes__triangle--purple {
+    height: 413.85px;
+  }
+
+  .jumbo__shapes__rectangle--orange {
+    height: 177px;
+  }
+
+  //Team
+  .team__member--blue {
+    height: 135px;
+    width: 135px;
+    top: 346px;
+    left: -2%;
+  }
+}
