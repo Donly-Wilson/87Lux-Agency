@@ -97,9 +97,12 @@
   //Footer
   .solution {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     &__list {
       margin-bottom: 2rem;
-      text-align: center;
+      // text-align: center;
+      width: fit-content;
     }
     &__answer {
       align-self: center;
@@ -217,10 +220,12 @@
     font-size: 1rem;
   }
   .jumbo__shapes__circle--green {
-    height: 130px;
+    height: 116px;
+    left: 32px;
+    top: 149px;
   }
   .jumbo__shapes__circle--blue {
-    height: 130px;
+    height: 116px;
   }
 
   .jumbo__shapes__triangle--purple {
