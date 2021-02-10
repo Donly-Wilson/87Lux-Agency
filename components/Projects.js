@@ -2,12 +2,14 @@ import style from "../styles/homepage.module.scss"
 import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 
 const Project = () => {
+    
     return (
-      <div>
+    //   <div>
         <section className={`${style.project} container-fluid`}>
             <div className={style.project__view}>
                 <ul className={style.project__view__list}>
                     <div className={style.project__view__list__title}>Latest projects</div>
+
                     <li className={style.projects}>
                         <a href="#">
                             <img src="https://speckyboy.com/wp-content/uploads/2019/03/restaurant-food-drink-website-inspiration-web-design-ui-04.jpg"
@@ -34,7 +36,7 @@ const Project = () => {
                 </Container>
             </div>
         </section>
-      </div>
+    //   </div>
     );
   };
   

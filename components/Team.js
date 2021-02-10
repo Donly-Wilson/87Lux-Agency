@@ -3,7 +3,7 @@ import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Butto
 
 const Team = () => {
     return (
-      <div>
+      // <div>
           <section className= {`${style.team} container`}>
             <div className= {style.team__title}>
                 <h1>Meet the team</h1>
@@ -28,7 +28,7 @@ const Team = () => {
                         alt="team member"/></div>
             </div>
         </section>
-      </div>
+      // </div>
     );
   };
   

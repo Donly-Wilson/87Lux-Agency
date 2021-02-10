@@ -3,7 +3,6 @@ import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Butto
 
 const Jumbotron = () => {
     return (
-      <div>
         <section className= {style.jumbo}>
             <Container>
                 <div className= {style.jumbo__content}>
@@ -38,7 +37,6 @@ const Jumbotron = () => {
                 </div>
             </Container>
         </section>
-      </div>
     );
   };
   

@@ -3,7 +3,7 @@ import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Butto
 
 const Footer = () => {
     return (
-    <div>
+    // <div>
         <footer className={style.footer}>
             <div className={style.footer__top}>
                 <Container className={style.footer__top__container}>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </Container>
             </div>
         </footer>
-      </div>
+    //   </div>
     );
   };
   

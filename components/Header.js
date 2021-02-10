@@ -4,7 +4,7 @@ import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Butto
 
 const Header = () => {
     return (
-      <div>
+      // <div>
         <header className={style.navbar}>
           <Container className={style.navbar__container}>
               <div className={style.navbar__logo}>
@@ -36,7 +36,7 @@ const Header = () => {
               </nav>
           </Container>
         </header>
-      </div>
+      // </div>
     );
   };
   
