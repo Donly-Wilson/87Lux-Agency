@@ -1,3 +1,23 @@
+/**************************** height above 790px (Like desktop 1080p) ***/
+@media screen and (min-height: 900px) {
+  .jumbo__shapes {
+    margin: 10px;
+    padding: 10px;
+    width: calc(100% - 20px);
+    max-width: 51%;
+    height: auto;
+    &::before {
+      /* aspect ratio keeper – 100% = square */
+
+      padding-bottom: 130%;
+    }
+    &::before,
+    &::after {
+      content: "";
+    }
+  }
+}
+
 /**************************** Tablet Max ***/
 
 @media all and (max-width: 1024px) {
@@ -117,10 +137,6 @@
   }
 }
 
-/**************************** Large screen ***/
-// @media (min-width: 1366px) and (max-width: 1920px) {
-
-// }
 /**************************** Mobile Mid ***/
 
 @media all and (max-width: 450px) {
