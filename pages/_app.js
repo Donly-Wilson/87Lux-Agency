@@ -1,4 +1,4 @@
-import "../styles/normalize.scss";
+import "../styles/global.scss";
 // import '../styles/customTheme.scss'
 
 function MyApp({ Component, pageProps }) {
