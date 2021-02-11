@@ -91,11 +91,12 @@
     &__content {
       // display: grid;
       // grid-template-columns: 1fr 1fr 1fr;
-      background: transparent;
+      // background: transparent;
+      background: #fff;
       height: 100%;
       &__text {
         // padding: 12px;
-        background: #fff;
+        margin-right: 1px;
         > p {
           color: $footer-color;
           font-weight: 400;
