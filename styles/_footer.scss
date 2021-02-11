@@ -69,10 +69,11 @@
   &__answer {
     height: 400px;
     width: 80%;
-    background: #e5e5e5;
+    // background: #e5e5e5;
     box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     &__header {
+      background: #e5e5e5;
       // display: grid;
       // grid-template-columns: 1fr 1fr 1fr;
       > p {
@@ -90,10 +91,11 @@
     &__content {
       // display: grid;
       // grid-template-columns: 1fr 1fr 1fr;
-      background: #fff;
+      background: transparent;
       height: 100%;
       &__text {
         // padding: 12px;
+        background: #fff;
         > p {
           color: $footer-color;
           font-weight: 400;
