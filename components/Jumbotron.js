@@ -6,15 +6,15 @@ const Jumbotron = () => {
     return (
         <section className= {`h-100 overflow-hidden`}>
             <Container>
-                <div className= {style.jumbo__content}>
-                    <div className= {style.jumbo__content__info}>
+                <div className= {`${style.jumbo__content} row justify-content-center align-items-center mx-0`}>
+                    <div className= {`${style.jumbo__content__info} col-md-6 p-0 flex-column d-flex justify-content-center`}>
                         <h1>We give your business an Edge</h1>
                         <h1>Over Your Competitor!</h1>
                         <p>Every thing you need for your business: Themes, Apps, Assets and More..</p>
                         <input type="email" name="" id="" placeholder="Enter your email address"/>
                         <button className= "button__purple">Get Started</button>
                     </div>
-                    <div className= {style.jumbo__shapes}>
+                    <div className= {`${style.jumbo__shapes} col-md-6 p-0`}>
                         <div className= {style['jumbo__shapes__circle--green']}></div>
                         <div className= {style['jumbo__shapes__circle--blue']}></div>
                         <div className= {style['jumbo__shapes__triangle--purple']}></div>
