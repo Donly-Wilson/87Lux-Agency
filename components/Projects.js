@@ -5,7 +5,7 @@ const Project = () => {
     
     return (
     //   <div>
-        <section className={`${style.project} container-fluid p-0 vh-100`}>
+        <section className={`container-fluid p-0 vh-100`}>
             <div className={`${style.project__view} overflow-hidden position-relative d-flex flex-column-reverse`}>
                 <ul className={style.project__view__list}>
                     <div className={style.project__view__list__title}>Latest projects</div>
