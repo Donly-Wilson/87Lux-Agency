@@ -30,9 +30,9 @@ const Project = () => {
                     </li>
                 </ul>
 
-                <Container className={style.project__btns}>
-                    <button className='button__purple--inverse'>View theme</button>
-                    <button className='button__purple--inverse'>View Apps</button>
+                <Container className="w-100 justify-content-center text-center mb-5">
+                    <button className='button__purple--inverse mr-3 mb-2 mb-md-0'>View theme</button>
+                    <button className='button__purple--inverse mr-3'>View Apps</button>
                 </Container>
             </div>
         </section>
