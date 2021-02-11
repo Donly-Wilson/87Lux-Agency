@@ -4,7 +4,7 @@ import Platform from "../components/Platform";
 
 const Jumbotron = () => {
     return (
-        <section className= {style.jumbo}>
+        <section className= {`${style.jumbo} h-100 overflow-hidden`}>
             <Container>
                 <div className= {style.jumbo__content}>
                     <div className= {style.jumbo__content__info}>

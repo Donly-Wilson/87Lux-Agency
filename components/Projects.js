@@ -5,7 +5,7 @@ const Project = () => {
     
     return (
     //   <div>
-        <section className={`${style.project} container-fluid`}>
+        <section className={`${style.project} container-fluid p-0 vh-100`}>
             <div className={`${style.project__view} overflow-hidden position-relative d-flex flex-column-reverse`}>
                 <ul className={style.project__view__list}>
                     <div className={style.project__view__list__title}>Latest projects</div>
@@ -30,7 +30,7 @@ const Project = () => {
                     </li>
                 </ul>
 
-                <Container className="w-100 justify-content-center text-center mb-5">
+                <Container className="w-100 justify-content-center text-center mb-4 mb-md-5">
                     <button className='button__purple--inverse mr-3 mb-2 mb-md-0'>View theme</button>
                     <button className='button__purple--inverse mr-3'>View Apps</button>
                 </Container>

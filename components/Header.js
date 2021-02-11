@@ -11,8 +11,8 @@ const Header = () => {
             <a href="#" className={style.header__logo__name}>87Lux</a>
           </div>
          <Navbar.Toggle className={style['navbar-toggler']} aria-controls="basic-navbar-nav">
-            <i class="fa fa-navicon"></i>
-            </Navbar.Toggle>
+              <i className={`fa fa-navicon ${style.menu}`}></i>
+          </Navbar.Toggle>
          <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
            <Nav className="text-capitalize">
              <Nav.Link href="#">theme</Nav.Link>
