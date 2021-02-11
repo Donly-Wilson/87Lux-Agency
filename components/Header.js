@@ -4,39 +4,26 @@ import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Butto
 
 const Header = () => {
     return (
-      // <div>
-        <header className={style.navbar}>
-          <Container className={style.navbar__container}>
-              <div className={style.navbar__logo}>
-                  <a href="#" className={style.navbar__logo__name}>87Lux</a>
-              </div>
-              <nav className={style.navbar__menu}>
-                  <ul className={style.navbar__menu__links}>
-                      <li className={style.navbar__menu__links__option}>
-                        <Link href="#">
-                        <a>theme</a> 
-                        </Link>
-                      </li>
-                      <li className={style.navbar__menu__links__option}>
-                        <Link href="#">
-                        <a href="#">Apps</a>
-                        </Link>
-                      </li>
-                      <li className={style.navbar__menu__links__option}>
-                        <Link href="#">
-                        <a href="#">Assets</a>
-                        </Link>
-                      </li>
-                      <li className={style.navbar__menu__links__option}>
-                        <Link href="#">
-                        <a href="#">Contact us</a>
-                        </Link>
-                      </li>
-                  </ul>
-              </nav>
-          </Container>
-        </header>
-      // </div>
+    <header className={`${style.header} fixed-top`}>
+      <Navbar expand="lg">
+       <Container>
+         <div className={`${style.header__logo} navbar-brand`}>
+            <a href="#" className={style.header__logo__name}>87Lux</a>
+          </div>
+         <Navbar.Toggle className={style['navbar-toggler']} aria-controls="basic-navbar-nav">
+            <i class="fa fa-navicon"></i>
+            </Navbar.Toggle>
+         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+           <Nav className="text-capitalize">
+             <Nav.Link href="#home">theme</Nav.Link>
+             <Nav.Link href="#link">Apps</Nav.Link>
+             <Nav.Link href="#link">Assets</Nav.Link>
+             <Nav.Link href="#link">Contact us</Nav.Link>
+           </Nav>
+         </Navbar.Collapse>
+       </Container>
+     </Navbar>
+    </header>
     );
   };
   

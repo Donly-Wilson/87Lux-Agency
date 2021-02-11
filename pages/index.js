@@ -13,7 +13,9 @@ export default function Home() {
       <Head>
         <title>87Lux Agency</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"></link>
+        {/* <!-- Font Awesome CDN*/}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"></link>
       </Head>
       <Header/>
       <Jumbotron/>
@@ -25,7 +27,7 @@ export default function Home() {
 }
 
 
-
+// import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 // const Home = () => (
 //   <>
 //     <Head>
@@ -84,5 +86,5 @@ export default function Home() {
 
 //   </>
 // )
-
 // export default Home
+

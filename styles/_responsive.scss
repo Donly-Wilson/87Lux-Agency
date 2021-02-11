@@ -8,7 +8,6 @@
     height: auto;
     &::before {
       /* aspect ratio keeper – 100% = square */
-
       padding-bottom: 130%;
     }
     &::before,
