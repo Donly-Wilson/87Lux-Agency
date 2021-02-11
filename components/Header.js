@@ -15,10 +15,10 @@ const Header = () => {
             </Navbar.Toggle>
          <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
            <Nav className="text-capitalize">
-             <Nav.Link href="#home">theme</Nav.Link>
-             <Nav.Link href="#link">Apps</Nav.Link>
-             <Nav.Link href="#link">Assets</Nav.Link>
-             <Nav.Link href="#link">Contact us</Nav.Link>
+             <Nav.Link href="#">theme</Nav.Link>
+             <Nav.Link href="#">Apps</Nav.Link>
+             <Nav.Link href="#">Assets</Nav.Link>
+             <Nav.Link href="#">Contact us</Nav.Link>
            </Nav>
          </Navbar.Collapse>
        </Container>
