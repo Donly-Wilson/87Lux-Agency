@@ -1,5 +1,6 @@
 import style from "../styles/homepage.module.scss"
 import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
+import Platform from "../components/Platform";
 
 const Jumbotron = () => {
     return (
@@ -27,15 +28,7 @@ const Jumbotron = () => {
                     </div>
                 </div>
             </Container>
-            <Container className= {style.platform}>
-                <p>platforms</p>
-                <div className= {style.platform__list}>
-                    <a href="#" className= {style.platform__list__img}><img src="./img/shopify.png" alt="shopify"/></a>
-                    <a href="#" className= {style.platform__list__img}><img src="./img/wordpress.png" alt="wordpress"/></a>
-                    <a href="#" className= {style.platform__list__img}><img src="./img/wix.png" alt="wix"/></a>
-                    <a href="#" className= {style.platform__list__img}><img src="./img/bigcommerce.png" alt="bigcommerce"/></a>
-                </div>
-            </Container>
+            <Platform/>
         </section>
     );
   };

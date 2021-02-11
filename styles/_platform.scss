@@ -1,17 +1,8 @@
 /*Platform*/
 .platform {
-  margin-top: 50px;
   > p {
     font-size: 0.9rem;
     text-align: left;
     text-transform: uppercase;
-  }
-  &__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &__img {
-      margin-right: 10px;
-    }
   }
 }
