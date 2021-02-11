@@ -73,25 +73,27 @@
     box-shadow: 0px 12px 42px 1px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     &__header {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      // display: grid;
+      // grid-template-columns: 1fr 1fr 1fr;
       > p {
         border-top: 4px solid $bright-green;
         background: #fff;
         color: $black;
-        display: grid;
-        place-items: center;
-        height: 100%;
-        text-transform: capitalize;
+        flex-basis: 33.33%;
+        // flex-basis: 66.66%;
+        // display: grid;
+        // place-items: center;
+        // height: 100%;
+        // text-transform: capitalize;
       }
     }
     &__content {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      // display: grid;
+      // grid-template-columns: 1fr 1fr 1fr;
       background: #fff;
       height: 100%;
       &__text {
-        padding: 12px;
+        // padding: 12px;
         > p {
           color: $footer-color;
           font-weight: 400;

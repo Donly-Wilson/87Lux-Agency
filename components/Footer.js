@@ -24,20 +24,20 @@ const Footer = () => {
                             <li className={style.query}><a href="#">Marketing assets</a></li>
                         </ol>
                         <div className={style.solution__answer}>
-                            <div className={style.solution__answer__header}>
-                                <p>Install theme</p>
+                            <div className={`${style.solution__answer__header} d-flex`}>
+                                <p className="py-2 m-0 text-center text-capitalize">Install theme</p>
                             </div>
-                            <div className={style.solution__answer__content}>
-                                <div className={style.solution__answer__content__text}>
+                            <div className={`${style.solution__answer__content} col-12 p-0 d-flex`}>
+                                <div className={`${style.solution__answer__content__text} col-12 col-md-4`}>
                                     <p>
                                         Having trouble with installing any of our themes? Well we can help you by installing the
                                         theme for you!
                                     </p>
                                 </div>
-                                <div className={style.solution__answer__content__theme}>
+                                <div className={`${style.solution__answer__content__theme} col-4 p-0 d-none d-md-block`}>
                                     <img src="./img/solution__store.png" alt=""/>
                                 </div>
-                                <div className={style.solution__answer__content__theme}>
+                                <div className={`${style.solution__answer__content__theme} col-12 col-md-4 p-0`}>
                                     <img src="./img/solution__laptopWork.png" alt=""/>
                                 </div>
                             </div>
