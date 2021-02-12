@@ -4,11 +4,11 @@ import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Butto
 const Team = () => {
     return (
       // <div>
-          <section className= {`${style.team} container`}>
-            <div className= {style.team__title}>
+          <section className= {`${style.team} container position-relative vh-100`}>
+            <div className= {`${style.team__title} position-absolute top-0 left-0 justify-content-center align-items-center d-flex w-100 h-100`}>
                 <h1>Meet the team</h1>
             </div>
-            <div className= {style.team__member}>
+            <div className= {`${style.team__member} position-absolute top-0 left-0 w-100`}>
                 <div className= {style['team__member--blue']}>
                     <img src="./img/team2.jpg" alt="team member "/>
                 </div>
