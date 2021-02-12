@@ -4,16 +4,11 @@ import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Butto
 const Team = () => {
     return (
       // <div>
-<<<<<<< HEAD
           <section className= {`container position-relative vh-100 p-0`}>
             <div className= {`${style.team__title} position-absolute top-0 left-0 justify-content-center align-items-center d-flex w-100 h-100`}>
-=======
-          <section className= {`${style.team} container`}>
-            <div className= {style.team__title}>
->>>>>>> parent of d2bba41... remove grid for teams
                 <h1>Meet the team</h1>
             </div>
-            <div className= {style.team__member}>
+            <div className= {`${style.team__member} position-absolute top-0 left-0 w-100`}>
                 <div className= {style['team__member--blue']}>
                     <img src="./img/team2.jpg" alt="team member "/>
                 </div>
