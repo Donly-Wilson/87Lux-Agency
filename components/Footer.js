@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className={style.footer}>
             <div className={style.footer__top}>
                 <Container className={style.footer__top__container}>
-                    <h1>Need a custom solution?</h1>
+                    <h1 className="text-center mb-5">Need a custom solution?</h1>
                     <div className={style.solution}>
                         <ol className={style.solution__list}>
                             <li className={`${style.query} ${style.active}`}>
