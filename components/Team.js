@@ -4,7 +4,7 @@ import { Container, Row, Col, Navbar, Nav, NavDropdown, Form, FormControl, Butto
 const Team = () => {
     return (
       // <div>
-          <section className= {`${style.team} container position-relative vh-100`}>
+          <section className= {`container position-relative vh-100 p-0`}>
             <div className= {`${style.team__title} position-absolute top-0 left-0 justify-content-center align-items-center d-flex w-100 h-100`}>
                 <h1>Meet the team</h1>
             </div>
